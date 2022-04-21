@@ -1,0 +1,144 @@
+body{
+	background-color: rgb(89, 89, 89);
+	color: white;
+	font-family: 'Lato', sans-serif;
+}/*
+h1,h2{
+	color:#54D12A;
+}*/
+img.logotipo{
+	width:  180px;
+	max-width:40%
+}
+
+img.cuerpodepagina{
+max-width: 100%;
+
+}
+.pie_pagina{
+	width:100%
+	height:auto;
+	margin:none;
+}
+img.logo_pie_pagina{
+	width: 150px;
+	display: inline;
+	padding:40px
+	border:15px outset
+}
+
+.efectoenlace {
+ text-decoration: none;
+ padding: 1px 3px;
+  display: inline-block;
+   -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+     -ms-transition: all 1s linear;
+      -o-transition: all 1.4s linear;
+       transition: all 1s linear;
+        }
+ .efectoenlace:hover {
+ /*background: #ccc;*/
+ background: rgba(89,89,89,.1);
+ color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+   -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+     -ms-transform: scale(1.5,1.5);
+      -o-transform: scale(1.5,1.5);
+       transform: scale(1.5,1.5);
+        -webkit-transition: all .8s linear;
+         -moz-transition: all .8s linear;
+          -ms-transition: all .8s linear;
+           -o-transition: all .8s linear;
+            transition: all .8s linear; 
+}
+
+.quitar-float{
+	float:none;
+}
+.espacio-arriba{
+	margin-top: 70px;
+}
+
+.diplomatasc{
+font-family: 'Diplomata SC', cursive;
+}
+.rubik{
+font-family: 'Rubik Mono One', sans-serif;
+}
+.mediana{
+	font-size: 1.2em;
+}
+.fuentegrande{
+	font-size: 3em;
+}
+.fuentepequena{
+	font-size: 1em;
+}
+.fuentemediana{
+	font-size: 1.5em;
+}
+.gris{
+	color:rgba(89,89,89,.9999999);
+}
+.gris-oscuro{
+	color: rgb(25,25,25);
+}
+.se-verde{
+	color:#54D12A;
+}
+.espacio-derecha{
+	margin-right: 6em;
+}
+.no-lista li{
+list-style-type: none;
+}
+.no-lista li{
+margin:0px;
+padding: 0px;
+}
+.se-naranja{
+	background-color: #DA2F00;
+}
+
+.se-gris-oscuro{
+	background-color: rgb(25,25,25);
+}
+.paddin-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float:none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso-2{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.retraso-3{
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+a,.blanco{
+	color:rgba(202,202,202,.9999);
+}
+
+footer{
+	position: relative;
+	margin-right: none;
+	margin: none;
+}
+
+.derechos_reservados{
+	float: left;
+	text-align: left;
+}
